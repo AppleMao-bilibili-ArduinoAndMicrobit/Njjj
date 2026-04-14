@@ -1,0 +1,24 @@
+# IDE配置（VS Code）
+.vscode/
+*.code-workspace
+
+# 编译输出
+build/
+cmake-build-debug/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.out
+
+# CMake 临时文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 其他
+*.log
+*.tmp
+.DS_Store
