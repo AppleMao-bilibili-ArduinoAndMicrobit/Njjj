@@ -8,5 +8,8 @@
 
 # 构建目录
 build/
-cmake-build-debug/my_ssh_key
+cmake-build-debug/
+
+# 密钥
+my_ssh_key
 my_ssh_key.pub
