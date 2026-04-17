@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 typedef struct {
     int a;
@@ -6,6 +7,8 @@ typedef struct {
     int total1 = a + b;
     int total2 = (a - b < 0) ? b - a : a - b;
     int total3 = a * b;
+    int total4 = ceil(a / b);
+    int total5 = floor(a * b);
 }Total;
 int main() 
 { 
@@ -16,8 +19,7 @@ int main()
     }
     for (int i = 0;i < 10;i++)
     {
-        cout << total[i].total1 << " " << total[i].total2 << " " << total[i].total3 << endl;
+        cout << total[i].total1 << " " << total[i].total2 << " " << total[i].total3 << total[i].total4 << total[i].total5 << endl;
     }
-    std::cout << "Hello from feature branch!" << std::endl;
     return 0;
 }
