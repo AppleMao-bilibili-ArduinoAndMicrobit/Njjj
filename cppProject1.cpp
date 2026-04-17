@@ -23,8 +23,5 @@ int main()
     }
     return 0;
 }
-<<<<<<< HEAD
 // Updated locally on my PC
-=======
 // Updated on GitHub website
->>>>>>> 44d89528f0fae94dae676df01ac0cb97176fbd80
