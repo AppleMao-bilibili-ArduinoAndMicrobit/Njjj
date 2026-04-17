@@ -13,3 +13,9 @@ cmake-build-debug/
 # 密钥
 my_ssh_key
 my_ssh_key.pub
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
