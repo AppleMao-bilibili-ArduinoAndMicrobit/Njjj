@@ -6,6 +6,9 @@
 # VS Code 配置
 .vscode/
 
+#VS 配置
+.vs/
+
 # 构建目录
 build/
 cmake-build-debug/
@@ -19,3 +22,6 @@ node_modules/
 npm-debug.log
 yarn-error.log
 package-lock.json
+
+# Java 配置
+oracleJdk-26/
